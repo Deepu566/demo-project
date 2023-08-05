@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+    <h1>STUDENT REGISTATION FORM</h1>
+    <div class="main">
+        <div class="one">
+            <form action="register.php" method="post">
+                <label for="first">First Name</label>
+                <input type="text" placeholder="Enter Your First Name" name="first" id="first"><br>
+                <label for="last">Last Name</label>
+                <input type="text" name="last" id="last" placeholder="Enter Your Last Name"><br>
+                <label for="father">Father Name</label>
+                <input type="text" name="father" id="father" placeholder="Enter Your Father Name"><br>
+                <label for="gender">Gender</label>
+                <input class="radio" type="radio" name="gender" value="male">Male
+                <input class="radio" type="radio" name="gender" value="female">Female<br>
+                <label for="dob">Date Of Birth</label>
+                <input type="date" name="dob" id="dob"><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email"><br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password"><br>
+                <label for="mobile">Mobile No.</label>
+                <input type="text" name="mobile" id="mobile" placeholder="Enter Your Mobile No."><br>
+                <input class="submit" type="submit" name="save" value="SUBMIT"><br>
+                <label for="log">Already Register Click On Log In Button
+                    <button> <a href="login.html">LOG IN</a></button>
+                </label>
+            </form>
+        </div>
+
+        <div class=" two">
+            <img src="photo.avif" alt="student">
+        </div>
+    </div>
+    <footer>@ 2023 Student Registation Form | Design By Amit & Happy
+    </footer>
+    <script src="register.js"></script>
+</body>
+
+</html>

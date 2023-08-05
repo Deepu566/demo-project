@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: -1px;
+
+}
+
+/* table {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+} */
+
+.main {
+    line-height: 50px;
+    background-color: rgb(136, 136, 185);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+.ad {
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.one {
+    text-align: center;
+    width: 500px;
+
+}
+
+.two {
+    width: 500px;
+    text-align: center;
+
+}
+
+body {
+    background-color: green;
+}
+
+.qualification {
+    background-color: yellow;
+}
+
+.upload {
+    background-color: aqua;
+}
